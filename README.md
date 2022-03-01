@@ -1,56 +1,95 @@
-# ToDoList
+# Leaderboard
 
-Javascript App to display a daily todolist 
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-![CPT2202221342-612x546](https://user-images.githubusercontent.com/59707859/155134746-691be202-5917-4ef5-b377-6d77d7470ec8.gif)
+> In this project, I set up a basic JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. The project uses the Leaderboard API.
 
+![](screenshot.png)
 
 ## Built With
 
--HTML & Javascript
+- HTML/CSS
+- Javascript
+- Git/Github
+- CLI
+- Npm
+- Webpack
+
+## Live Demo
+
+[Live Demo Link](https://ismailco.github.io/Leaderboard/dist/)
 
 ## Getting Started
 
-**To get a local copy up and running follow these simple example steps.**
+To get a local copy up and running follow these simple example steps.
 
-Clone the repo with `git clone git@github.com:souad988/ToDoList.git`
+### Prerequisites
 
-Run `npm install` from the command line
+### Setup
 
-Run `npx hint .` to test for HTML linting check
+To get the project up and running you need a browser, npm installed, and a terminal.
 
-Run `npx stylelint "**/*.{css,scss}"` to test for css/scss linting check
+### Install
 
-Run `npx eslint .` to test for javascript linting check
+To get the project locally, run
 
-The app is deployed using Github Pages. You can view it by clicking the [Live Demo Link](#Live-Demo) below.
-### Live demo
+```
+$ git clone git@github.com:Ismailco/Todo-list-with-webpack.git
+```
 
-[gitpages](https://souad988.github.io/ToDoList/)
+Then
+
+```
+$ npm install
+$ npm run build
+```
+
+### Development
+
+to use the app localy you need to install npm then:
+
+```
+$ npm start
+```
+
+### Run tests
+
+For Eslint test run:
+
+```
+$ npx eslint .
+```
+
+For Webhint test run:
+
+```
+$ npx hint .
+```
+
+For Stylelint test run:
+
+```
+$ npx stylelint "**/*.{css.scss}"
+```
 
 ## Authors
 
-👤 **Souad**
+👤 **Ismail Courr**
 
-- GitHub: [@githubhandle](https://github.com/souad988)
-  https://github.com/souad988
-
+- GitHub: [@ismailco](https://github.com/ismailco)
+- Twitter: [@ismailcourr](https://twitter.com/ismailcourr)
+- LinkedIn: [Ismail Courr](https://linkedin.com/in/ismailcourr)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the (https://souad988.github.io/ToDoList/issues).
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-- Microverse
-
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
-
