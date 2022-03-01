@@ -29,7 +29,7 @@ const list = [
 ];
 
 const addToList = () => {
-  let obj = {
+  const obj = {
     name: name.value,
     score: score.value,
   };
