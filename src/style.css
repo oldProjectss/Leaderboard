@@ -81,13 +81,13 @@ body {
   box-shadow: 1px 1px 9px #3e3e3e;
 }
 
+.input-score {
+  margin-top: 15px;
+}
+
 .input-name:focus,
 .input-score:focus {
   border: 1px solid transparent;
-}
-
-.input-score {
-  margin-top: 15px;
 }
 
 .add-btn {
@@ -97,7 +97,6 @@ body {
   align-self: flex-end;
   color: #000;
   background-color: #fff;
-  padding: 5px 10px;
   border-radius: 6px;
   outline: none;
   border: 1px solid #000;
