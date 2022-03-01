@@ -34,7 +34,7 @@ To get the project up and running you need a browser, npm installed, and a termi
 To get the project locally, run
 
 ```
-$ git clone git@github.com:Ismailco/Todo-list-with-webpack.git
+$ git clone git@github.com:Ismailco/Leaderboard.git
 ```
 
 Then
