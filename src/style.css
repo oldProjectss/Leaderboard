@@ -65,12 +65,6 @@ body {
   background-color: rgba(62, 62, 62, 0.2);
 }
 
-.add-board {
-  /* display: flex;
-  flex-direction: column; */
-  /* width: 30%; */
-}
-
 .add-form {
   display: flex;
   flex-direction: column;
@@ -113,6 +107,6 @@ body {
   cursor: pointer;
 }
 
-.add-btn:hover {
+.add-btn:active {
   box-shadow: none;
 }

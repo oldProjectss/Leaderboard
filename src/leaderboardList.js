@@ -1,3 +1,6 @@
+const name = document.querySelector('.input-name');
+const score = document.querySelector('.input-score');
+
 const list = [
   {
     name: 'ismail',
@@ -25,4 +28,14 @@ const list = [
   },
 ];
 
-export default list;
+const addToList = () => {
+  let obj = {
+    name: name.value,
+    score: score.value,
+  };
+  list.push(obj);
+  name.value = '';
+  score.value = '';
+};
+
+export { list, addToList };
