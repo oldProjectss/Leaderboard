@@ -3,23 +3,6 @@ const name = document.querySelector('.input-name');
 const score = document.querySelector('.input-score');
 
 // Api
-// Create a game
-async function getGameId() {
-  const game = JSON.stringify({ name: 'ismail' });
-  const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
-  const options = {
-    method: 'POST',
-    body: game,
-    headers: {
-      'Content-type': 'application/json; charset=UTF-8',
-    },
-  };
-
-  const postRequest = await fetch(url, options);
-  const obj = await postRequest.json();
-  return obj;
-}
-
 // add game data
 const setData = async (name, value) => {
   const score = JSON.stringify({
