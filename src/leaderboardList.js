@@ -4,7 +4,7 @@ const score = document.querySelector('.input-score');
 
 // Api
 // Create a game
-const getGameId = async () => {
+async function getGameId() {
   const game = JSON.stringify({ name: 'ismail' });
   const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
   const options = {
@@ -18,7 +18,7 @@ const getGameId = async () => {
   const postRequest = await fetch(url, options);
   const obj = await postRequest.json();
   return obj;
-};
+}
 
 // add game data
 const setData = async (name, value) => {
