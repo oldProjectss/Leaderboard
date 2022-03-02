@@ -109,3 +109,11 @@ body {
 .add-btn:active {
   box-shadow: none;
 }
+
+.alert {
+  margin: 30px;
+  background-color: rgba(0, 128, 0, 0.4);
+  padding: 20px;
+  border-radius: 5px;
+  display: none;
+}
