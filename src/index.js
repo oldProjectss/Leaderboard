@@ -1,5 +1,5 @@
 import './style.css';
-import { list, addToList, getData } from './leaderboardList.js';
+import { addToList, getData } from './leaderboardList.js';
 
 const listContainer = document.querySelector('.board-list');
 const refreshButton = document.querySelector('.board-btn');
@@ -20,6 +20,6 @@ refreshButton.addEventListener('click', () => {
       });
     })
     .catch((err) => {
-      console.log(err);
+      throw new Error(err);
     });
 });
