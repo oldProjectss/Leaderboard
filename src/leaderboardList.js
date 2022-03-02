@@ -1,3 +1,5 @@
+import 'regenerator-runtime';
+
 const message = document.querySelector('.alert');
 const name = document.querySelector('.input-name');
 const score = document.querySelector('.input-score');
