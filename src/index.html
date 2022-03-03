@@ -21,7 +21,7 @@
         <h2 class="add-title">Add your score</h2>
         <form class="add-form" action="./leaderboardList" method="post">
           <input type="text" class="input-name" maxlength="20" placeholder="Your name" required />
-          <input type="number" class="input-score" maxlength="10" placeholder="Your score" required />
+          <input type="number" class="input-score" min="0" max="99999" placeholder="Your score" required />
           <button class="add-btn" type="submit">Submit</button>
         </form>
       </section>
