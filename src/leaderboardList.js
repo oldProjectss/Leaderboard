@@ -42,8 +42,13 @@ const addToList = () => {
   };
   setData(obj.name, obj.score)
     .then((response) => {
-      message.innerHTML = response.result;
-      message.style.display = 'block';
+      message.innerHTML = `${response.result} <span class="close-alert">X</span>`;
+      message.style.display = 'flex';
+    })
+    .then(() => {
+      document.querySelector('.close-alert').addEventListener('click', () => {
+        message.style.display = 'none';
+      });
     })
     .catch((err) => {
       throw new Error(err);
