@@ -117,3 +117,19 @@ body {
   border-radius: 5px;
   display: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .project {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .board {
+    margin-right: 1px;
+    margin-bottom: 30px;
+  }
+
+  .add-btn {
+    align-self: center;
+  }
+}
